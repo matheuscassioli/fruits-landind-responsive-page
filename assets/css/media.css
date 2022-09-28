@@ -1,0 +1,146 @@
+@media screen and (min-width: 700px) {
+  .orange-first img {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .right-nav {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 786px) {
+  .left-nav {
+    width: 29% !important;
+  }
+}
+@media screen and (max-width: 552px) {
+  .left-nav {
+    width: 35% !important;
+  }
+}
+@media screen and (min-width: 480px) {
+  .menu-invisible {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .eggs {
+    flex-direction: column-reverse !important;
+    height: unset !important;
+  }
+  .eggs .eggs-left {
+    width: 100% !important;
+    height: 100% !important;
+    justify-content: center;
+    padding: 60px 0px;
+  }
+  .eggs .eggs-right {
+    width: 100% !important;
+  }
+  .cups {
+    flex-direction: column !important;
+    height: 125vh !important;
+  }
+  .cups .cups-left {
+    width: 100% !important;
+  }
+  .cups .cups-right {
+    padding: 60px 0px;
+    width: 100% !important;
+    height: 97vh !important;
+    justify-content: center;
+  }
+  .orange-berry {
+    flex-direction: column;
+  }
+  .orange-berry .berry {
+    width: 100% !important;
+    display: flex;
+  }
+  .orange-berry .berry .graphic-design p {
+    padding: 0px 50px !important;
+  }
+  .orange-berry .orange {
+    width: 100% !important;
+  }
+  .orange-berry .orange .photography p {
+    padding: 0px 50px !important;
+  }
+  .menu-hamb {
+    display: flex !important;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .menu-hamb img {
+    padding: 20px;
+    cursor: pointer;
+  }
+  .right-nav {
+    display: none !important;
+  }
+  .all-photos {
+    flex-direction: column;
+  }
+  .all-photos .one {
+    width: 100% !important;
+  }
+  .all-photos .two {
+    width: 100% !important;
+  }
+  .about {
+    width: 51%;
+  }
+  .people {
+    height: unset !important;
+  }
+  .people .people-all {
+    flex-direction: column;
+    align-items: center;
+  }
+  .people .people-all .emily {
+    width: 80% !important;
+  }
+  .people .people-all .thomas {
+    width: 80% !important;
+    margin-top: 14px;
+  }
+  .people .people-all .jennie {
+    width: 80% !important;
+    margin-top: 14px;
+  }
+}
+@media screen and (max-width: 615px) {
+  .rodape {
+    height: 30vh !important;
+  }
+  .rodape .abouts {
+    width: 50% !important;
+  }
+  .rodape .redes-sociais {
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 644px) {
+  .graphic-design p {
+    padding: 0px 8px !important;
+    font-size: 10px !important;
+  }
+  .photography p {
+    padding: 0px 8px !important;
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 409px) {
+  .left-nav {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 270px) {
+  .left-nav {
+    width: 65% !important;
+  }
+}/*# sourceMappingURL=media.css.map */
